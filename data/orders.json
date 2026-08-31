@@ -1,0 +1,224 @@
+[
+  {
+    "id": "ORD-20260828-0001",
+    "patientId": "USR002",
+    "patientName": "Deni Kurniawan",
+    "patientPhone": "0812-3456-7890",
+    "items": [
+      {
+        "productId": "MED001",
+        "name": "Paracetamol 500 mg Tablet",
+        "image": "/images/products/tablet-strip.jpg",
+        "price": 4500,
+        "qty": 2,
+        "requiresPrescription": false
+      },
+      {
+        "productId": "MED020",
+        "name": "Oralit Rasa Jeruk (10 sachet)",
+        "image": "/images/products/herbal-box.svg",
+        "price": 5500,
+        "qty": 2,
+        "requiresPrescription": false
+      }
+    ],
+    "fulfillment": "pickup",
+    "subtotal": 20000,
+    "shippingCost": 0,
+    "total": 20000,
+    "status": "completed",
+    "createdAt": "2026-08-28T10:12:00+07:00",
+    "updatedAt": "2026-08-28T16:40:00+07:00",
+    "history": [
+      { "status": "created", "at": "2026-08-28T10:12:00+07:00" },
+      { "status": "waiting_confirmation", "at": "2026-08-28T10:31:00+07:00" },
+      { "status": "payment_confirmed", "at": "2026-08-28T11:02:00+07:00", "note": "Pembayaran diverifikasi admin" },
+      { "status": "processing", "at": "2026-08-28T11:20:00+07:00" },
+      { "status": "ready_to_pickup", "at": "2026-08-28T13:05:00+07:00" },
+      { "status": "completed", "at": "2026-08-28T16:40:00+07:00", "note": "Obat telah diambil pasien" }
+    ]
+  },
+  {
+    "id": "ORD-20260829-0002",
+    "patientId": "USR003",
+    "patientName": "Budi Santoso",
+    "patientPhone": "0813-9988-7766",
+    "items": [
+      {
+        "productId": "MED009",
+        "name": "Vitamin C 1000 mg",
+        "image": "/images/products/vitamin-c.jpg",
+        "price": 48500,
+        "qty": 1,
+        "requiresPrescription": false
+      },
+      {
+        "productId": "MED013",
+        "name": "Omega-3 Fish Oil 1000 mg",
+        "image": "/images/products/supplement-jar.jpg",
+        "price": 68000,
+        "qty": 1,
+        "requiresPrescription": false
+      }
+    ],
+    "fulfillment": "delivery",
+    "address": {
+      "receiverName": "Budi Santoso",
+      "receiverPhone": "0813-9988-7766",
+      "province": "Jawa Barat",
+      "city": "Bandung",
+      "district": "Coblong",
+      "street": "Jl. Dago Asri No. 8",
+      "postalCode": "40135",
+      "note": "Titip ke satpam jika tidak ada di rumah"
+    },
+    "subtotal": 116500,
+    "shippingCost": 15000,
+    "total": 131500,
+    "status": "completed",
+    "createdAt": "2026-08-29T09:05:00+07:00",
+    "updatedAt": "2026-08-30T14:10:00+07:00",
+    "history": [
+      { "status": "created", "at": "2026-08-29T09:05:00+07:00" },
+      { "status": "waiting_confirmation", "at": "2026-08-29T09:22:00+07:00" },
+      { "status": "payment_confirmed", "at": "2026-08-29T10:00:00+07:00", "note": "Pembayaran QRIS diverifikasi" },
+      { "status": "processing", "at": "2026-08-29T10:30:00+07:00" },
+      { "status": "shipping", "at": "2026-08-29T15:44:00+07:00", "note": "Paket diserahkan ke kurir" },
+      { "status": "completed", "at": "2026-08-30T14:10:00+07:00", "note": "Paket diterima" }
+    ]
+  },
+  {
+    "id": "ORD-20260830-0003",
+    "patientId": "USR004",
+    "patientName": "Sari Wulandari",
+    "patientPhone": "0857-1122-3344",
+    "items": [
+      {
+        "productId": "MED002",
+        "name": "Paracetamol Sirup Anak 60 ml",
+        "image": "/images/products/syrup-orange.jpg",
+        "price": 9500,
+        "qty": 2,
+        "requiresPrescription": false
+      },
+      {
+        "productId": "MED021",
+        "name": "Minyak Telon Plus 60 ml",
+        "image": "/images/products/drops-bottle.jpg",
+        "price": 14500,
+        "qty": 1,
+        "requiresPrescription": false
+      },
+      {
+        "productId": "MED020",
+        "name": "Oralit Rasa Jeruk (10 sachet)",
+        "image": "/images/products/herbal-box.svg",
+        "price": 5500,
+        "qty": 1,
+        "requiresPrescription": false
+      }
+    ],
+    "fulfillment": "delivery",
+    "address": {
+      "receiverName": "Sari Wulandari",
+      "receiverPhone": "0857-1122-3344",
+      "province": "Banten",
+      "city": "Tangerang Selatan",
+      "district": "Serpong Utara",
+      "street": "Jl. Bukit Serpong Mas Blok C2 No. 15",
+      "postalCode": "15323",
+      "note": ""
+    },
+    "subtotal": 39000,
+    "shippingCost": 15000,
+    "total": 54000,
+    "status": "processing",
+    "createdAt": "2026-08-30T15:48:00+07:00",
+    "updatedAt": "2026-08-30T17:30:00+07:00",
+    "history": [
+      { "status": "created", "at": "2026-08-30T15:48:00+07:00" },
+      { "status": "waiting_confirmation", "at": "2026-08-30T16:02:00+07:00" },
+      { "status": "payment_confirmed", "at": "2026-08-30T16:35:00+07:00", "note": "Pembayaran diverifikasi admin" },
+      { "status": "processing", "at": "2026-08-30T17:30:00+07:00" }
+    ]
+  },
+  {
+    "id": "ORD-20260830-0004",
+    "patientId": "USR002",
+    "patientName": "Deni Kurniawan",
+    "patientPhone": "0812-3456-7890",
+    "items": [
+      {
+        "productId": "MED016",
+        "name": "Salep Antiseptik 15 g",
+        "image": "/images/products/cream-tube.jpg",
+        "price": 11500,
+        "qty": 1,
+        "requiresPrescription": false
+      },
+      {
+        "productId": "MED019",
+        "name": "Minyak Angin Aromatik 30 ml",
+        "image": "/images/products/drops-bottle.jpg",
+        "price": 8000,
+        "qty": 2,
+        "requiresPrescription": false
+      }
+    ],
+    "fulfillment": "delivery",
+    "address": {
+      "receiverName": "Deni Kurniawan",
+      "receiverPhone": "0812-3456-7890",
+      "province": "DKI Jakarta",
+      "city": "Jakarta Selatan",
+      "district": "Tebet",
+      "street": "Jl. Tebet Timur Dalam No. 21",
+      "postalCode": "12820",
+      "note": ""
+    },
+    "subtotal": 27500,
+    "shippingCost": 15000,
+    "total": 42500,
+    "status": "waiting_confirmation",
+    "createdAt": "2026-08-30T19:20:00+07:00",
+    "updatedAt": "2026-08-30T19:36:00+07:00",
+    "history": [
+      { "status": "created", "at": "2026-08-30T19:20:00+07:00" },
+      { "status": "waiting_confirmation", "at": "2026-08-30T19:36:00+07:00", "note": "Bukti pembayaran diterima, menunggu verifikasi admin" }
+    ]
+  },
+  {
+    "id": "ORD-20260831-0005",
+    "patientId": "USR003",
+    "patientName": "Budi Santoso",
+    "patientPhone": "0813-9988-7766",
+    "items": [
+      {
+        "productId": "MED026",
+        "name": "Jamu Kunyit Asam Sachet",
+        "image": "/images/products/herbal-box.svg",
+        "price": 2500,
+        "qty": 5,
+        "requiresPrescription": false
+      },
+      {
+        "productId": "MED005",
+        "name": "Sirup Batuk OB 100 ml",
+        "image": "/images/products/syrup-brown.jpg",
+        "price": 15500,
+        "qty": 1,
+        "requiresPrescription": false
+      }
+    ],
+    "fulfillment": "pickup",
+    "subtotal": 28000,
+    "shippingCost": 0,
+    "total": 28000,
+    "status": "pending_payment",
+    "createdAt": "2026-08-31T07:58:00+07:00",
+    "updatedAt": "2026-08-31T07:58:00+07:00",
+    "history": [
+      { "status": "created", "at": "2026-08-31T07:58:00+07:00" }
+    ]
+  }
+]

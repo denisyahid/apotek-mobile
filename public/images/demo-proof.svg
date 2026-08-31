@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="320" height="400">
+  <rect width="320" height="400" rx="16" fill="#f8fafc"/>
+  <rect x="24" y="24" width="272" height="352" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="48" y="52" width="120" height="16" rx="8" fill="#cbd5e1"/>
+  <rect x="48" y="84" width="224" height="10" rx="5" fill="#e2e8f0"/>
+  <rect x="48" y="104" width="180" height="10" rx="5" fill="#e2e8f0"/>
+  <rect x="48" y="140" width="224" height="90" rx="8" fill="#f1f5f9"/>
+  <text x="160" y="192" font-family="Roboto, Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="middle">Bukti Transfer (Demo)</text>
+  <rect x="48" y="252" width="224" height="10" rx="5" fill="#e2e8f0"/>
+  <rect x="48" y="276" width="160" height="10" rx="5" fill="#e2e8f0"/>
+  <rect x="48" y="316" width="90" height="24" rx="12" fill="#d7f7f0"/>
+</svg>

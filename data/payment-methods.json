@@ -1,0 +1,41 @@
+[
+  {
+    "id": "PMT01",
+    "type": "bank_transfer",
+    "name": "Transfer Bank BCA",
+    "bankName": "BCA",
+    "accountNumber": "1234567890",
+    "accountName": "PT Apotek Sehatku Nusantara",
+    "instructions": "Transfer tepat sesuai jumlah total agar verifikasi lebih cepat.",
+    "isActive": true
+  },
+  {
+    "id": "PMT02",
+    "type": "bank_transfer",
+    "name": "Transfer Bank BRI",
+    "bankName": "BRI",
+    "accountNumber": "0987654321",
+    "accountName": "PT Apotek Sehatku Nusantara",
+    "instructions": "Transfer tepat sesuai jumlah total agar verifikasi lebih cepat.",
+    "isActive": true
+  },
+  {
+    "id": "PMT03",
+    "type": "bank_transfer",
+    "name": "Transfer Bank Mandiri",
+    "bankName": "Mandiri",
+    "accountNumber": "1122334455667",
+    "accountName": "PT Apotek Sehatku Nusantara",
+    "instructions": "Transfer tepat sesuai jumlah total agar verifikasi lebih cepat.",
+    "isActive": true
+  },
+  {
+    "id": "PMT04",
+    "type": "qris",
+    "name": "QRIS",
+    "accountName": "PT Apotek Sehatku Nusantara",
+    "qrImage": "/images/qr/qris-demo.svg",
+    "instructions": "Scan QR menggunakan aplikasi mobile banking atau e-wallet favorit Anda.",
+    "isActive": true
+  }
+]

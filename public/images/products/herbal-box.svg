@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#ffffff"/>
+  <ellipse cx="200" cy="330" rx="130" ry="16" fill="#0f2a3d" opacity="0.08"/>
+  <!-- kotak jamu -->
+  <g>
+    <rect x="70" y="120" width="180" height="170" rx="14" fill="#7c5a3e"/>
+    <rect x="70" y="120" width="180" height="46" rx="14" fill="#6b4c34"/>
+    <rect x="70" y="152" width="180" height="14" fill="#573d29"/>
+    <rect x="96" y="186" width="128" height="12" rx="6" fill="#f3e4ce" opacity="0.9"/>
+    <rect x="96" y="210" width="96" height="10" rx="5" fill="#e7d3b5" opacity="0.7"/>
+    <circle cx="110" cy="256" r="14" fill="#e8b84b"/>
+    <path d="M104 256c4-8 12-8 16 0" stroke="#7c5a3e" stroke-width="3" fill="none"/>
+    <path d="M112 242v28M100 248l20 18M120 248l-20 18" stroke="#4c7a4f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- sachet jamu -->
+  <g>
+    <rect x="252" y="150" width="96" height="140" rx="10" fill="#f6ead2" stroke="#e0cfa9" stroke-width="2"/>
+    <rect x="252" y="150" width="96" height="26" rx="10" fill="#4c7a4f"/>
+    <rect x="252" y="264" width="96" height="26" rx="10" fill="#4c7a4f"/>
+    <path d="M292 206c-12-14 8-26 0-40 14 8 16 28 4 34" stroke="#7c5a3e" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M296 214c8-6 14-16 10-26" stroke="#e8b84b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- daun dekoratif -->
+  <path d="M84 96c26-24 60-30 92-18-30 26-62 32-92 18z" fill="#4c7a4f" opacity="0.85"/>
+  <path d="M292 96c-26-24-60-30-92-18 30 26 62 32 92 18z" fill="#4c7a4f" opacity="0.85"/>
+</svg>
