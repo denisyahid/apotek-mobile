@@ -1,0 +1,52 @@
+{
+  "name": "Apotek Sehatku — Pesan Obat Online",
+  "short_name": "Sehatku",
+  "description": "Pesan obat, vitamin, dan kebutuhan kesehatan. Konsultasi gratis dengan apoteker, pembayaran mudah, ambil di tempat atau diantar.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#16988f",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["medical", "health", "shopping"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cari Obat",
+      "url": "/obat",
+      "description": "Telusuri katalog obat dan vitamin"
+    },
+    {
+      "name": "Konsultasi Apoteker",
+      "url": "/konsultasi",
+      "description": "Chat gratis dengan apoteker"
+    },
+    {
+      "name": "Pesanan Saya",
+      "url": "/pesanan",
+      "description": "Lacak pesanan Anda"
+    }
+  ]
+}

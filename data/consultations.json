@@ -1,0 +1,194 @@
+[
+  {
+    "id": "CST0001",
+    "patientId": "USR002",
+    "patientName": "Deni Kurniawan",
+    "subject": "Obat untuk flu dan pilek",
+    "status": "open",
+    "createdAt": "2026-08-30T09:02:00+07:00",
+    "lastMessageAt": "2026-08-30T09:20:00+07:00",
+    "patientUnread": 0,
+    "adminUnread": 0,
+    "messages": [
+      {
+        "id": "MSG0001",
+        "consultationId": "CST0001",
+        "sender": "system",
+        "senderName": "Sistem",
+        "type": "system",
+        "text": "Konsultasi dibuat. Mohon jelaskan keluhan Anda, apoteker akan membantu.",
+        "createdAt": "2026-08-30T09:02:00+07:00"
+      },
+      {
+        "id": "MSG0002",
+        "consultationId": "CST0001",
+        "sender": "patient",
+        "senderName": "Deni Kurniawan",
+        "type": "text",
+        "text": "Selamat pagi, saya flu dan pilek sejak kemarin malam, agak demam juga. Obat apa yang cocok ya?",
+        "createdAt": "2026-08-30T09:03:00+07:00"
+      },
+      {
+        "id": "MSG0003",
+        "consultationId": "CST0001",
+        "sender": "admin",
+        "senderName": "Apoteker Andini",
+        "type": "text",
+        "text": "Selamat pagi Bapak Deni. Untuk gejala demam dan flu, paracetamol dapat membantu meredakan demam dan nyeri. Pastikan cukup istirahat dan minum air putih. Berikut produk yang dapat membantu:",
+        "createdAt": "2026-08-30T09:10:00+07:00"
+      },
+      {
+        "id": "MSG0004",
+        "consultationId": "CST0001",
+        "sender": "admin",
+        "senderName": "Apoteker Andini",
+        "type": "product",
+        "text": "Rekomendasi obat dari apoteker",
+        "product": {
+          "productId": "MED001",
+          "name": "Paracetamol 500 mg Tablet",
+          "image": "/images/products/tablet-strip.jpg",
+          "price": 4500,
+          "stock": 120,
+          "categoryId": "CAT001",
+          "requiresPrescription": false
+        },
+        "createdAt": "2026-08-30T09:11:00+07:00"
+      },
+      {
+        "id": "MSG0005",
+        "consultationId": "CST0001",
+        "sender": "patient",
+        "senderName": "Deni Kurniawan",
+        "type": "text",
+        "text": "Baik, terima kasih. Saya pesan sekarang.",
+        "createdAt": "2026-08-30T09:20:00+07:00"
+      }
+    ]
+  },
+  {
+    "id": "CST0002",
+    "patientId": "USR003",
+    "patientName": "Budi Santoso",
+    "subject": "Vitamin untuk daya tahan tubuh",
+    "status": "open",
+    "createdAt": "2026-08-31T08:14:00+07:00",
+    "lastMessageAt": "2026-08-31T08:52:00+07:00",
+    "patientUnread": 0,
+    "adminUnread": 1,
+    "messages": [
+      {
+        "id": "MSG0006",
+        "consultationId": "CST0002",
+        "sender": "system",
+        "senderName": "Sistem",
+        "type": "system",
+        "text": "Konsultasi dibuat. Mohon jelaskan keluhan Anda, apoteker akan membantu.",
+        "createdAt": "2026-08-31T08:14:00+07:00"
+      },
+      {
+        "id": "MSG0007",
+        "consultationId": "CST0002",
+        "sender": "patient",
+        "senderName": "Budi Santoso",
+        "type": "text",
+        "text": "Pagi, saya sering lelah akhir-akhir ini karena kerja shift. Ada rekomendasi vitamin untuk daya tahan tubuh?",
+        "createdAt": "2026-08-31T08:15:00+07:00"
+      },
+      {
+        "id": "MSG0008",
+        "consultationId": "CST0002",
+        "sender": "admin",
+        "senderName": "Apoteker Andini",
+        "type": "text",
+        "text": "Pagi Bapak Budi. Untuk membantu daya tahan tubuh, vitamin C dan zinc bisa membantu. Tetap utamakan pola makan dan istirahat yang cukup ya, Pak.",
+        "createdAt": "2026-08-31T08:30:00+07:00"
+      },
+      {
+        "id": "MSG0009",
+        "consultationId": "CST0002",
+        "sender": "admin",
+        "senderName": "Apoteker Andini",
+        "type": "product",
+        "text": "Rekomendasi obat dari apoteker",
+        "product": {
+          "productId": "MED009",
+          "name": "Vitamin C 1000 mg",
+          "image": "/images/products/vitamin-c.jpg",
+          "price": 48500,
+          "stock": 64,
+          "categoryId": "CAT002",
+          "requiresPrescription": false
+        },
+        "createdAt": "2026-08-31T08:31:00+07:00"
+      },
+      {
+        "id": "MSG0010",
+        "consultationId": "CST0002",
+        "sender": "patient",
+        "senderName": "Budi Santoso",
+        "type": "text",
+        "text": "Kalau untuk anak saya yang berumur 6 tahun, ada rekomendasi vitamin yang aman?",
+        "createdAt": "2026-08-31T08:52:00+07:00"
+      }
+    ]
+  },
+  {
+    "id": "CST0003",
+    "patientId": "USR004",
+    "patientName": "Sari Wulandari",
+    "subject": "Demam anak 3 tahun",
+    "status": "open",
+    "createdAt": "2026-08-31T06:40:00+07:00",
+    "lastMessageAt": "2026-08-31T07:05:00+07:00",
+    "patientUnread": 1,
+    "adminUnread": 0,
+    "messages": [
+      {
+        "id": "MSG0011",
+        "consultationId": "CST0003",
+        "sender": "system",
+        "senderName": "Sistem",
+        "type": "system",
+        "text": "Konsultasi dibuat. Mohon jelaskan keluhan Anda, apoteker akan membantu.",
+        "createdAt": "2026-08-31T06:40:00+07:00"
+      },
+      {
+        "id": "MSG0012",
+        "consultationId": "CST0003",
+        "sender": "patient",
+        "senderName": "Sari Wulandari",
+        "type": "text",
+        "text": "Selamat pagi, anak saya umur 3 tahun demam sejak tadi malam, suhu 38.2°C. Obat penurun panas yang aman apa ya?",
+        "createdAt": "2026-08-31T06:41:00+07:00"
+      },
+      {
+        "id": "MSG0013",
+        "consultationId": "CST0003",
+        "sender": "admin",
+        "senderName": "Apoteker Andini",
+        "type": "text",
+        "text": "Pagi Bu Sari. Untuk demam anak 3 tahun, sirup paracetamol dapat membantu menurunkan suhu. Namun jika demam lebih dari 3 hari, anak terlihat lemas, atau kejang, segera bawa ke dokter ya, Bu.",
+        "createdAt": "2026-08-31T07:04:00+07:00"
+      },
+      {
+        "id": "MSG0014",
+        "consultationId": "CST0003",
+        "sender": "admin",
+        "senderName": "Apoteker Andini",
+        "type": "product",
+        "text": "Rekomendasi obat dari apoteker",
+        "product": {
+          "productId": "MED002",
+          "name": "Paracetamol Sirup Anak 60 ml",
+          "image": "/images/products/syrup-orange.jpg",
+          "price": 9500,
+          "stock": 48,
+          "categoryId": "CAT001",
+          "requiresPrescription": false
+        },
+        "createdAt": "2026-08-31T07:05:00+07:00"
+      }
+    ]
+  }
+]

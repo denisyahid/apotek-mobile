@@ -1,0 +1,10 @@
+[
+  { "id": "CAT001", "name": "Obat Bebas", "slug": "obat-bebas", "icon": "pill", "description": "Obat bebas untuk gejala umum seperti demam, flu, dan batuk" },
+  { "id": "CAT002", "name": "Vitamin", "slug": "vitamin", "icon": "citrus", "description": "Vitamin harian untuk menunjang daya tahan tubuh" },
+  { "id": "CAT003", "name": "Suplemen", "slug": "suplemen", "icon": "dumbbell", "description": "Suplemen kesehatan tambahan sesuai kebutuhan" },
+  { "id": "CAT004", "name": "Perawatan Diri", "slug": "perawatan-diri", "icon": "sparkles", "description": "Produk perawatan dan kebersihan diri sehari-hari" },
+  { "id": "CAT005", "name": "Ibu & Anak", "slug": "ibu-anak", "icon": "baby", "description": "Kebutuhan kesehatan ibu dan anak" },
+  { "id": "CAT006", "name": "Alat Kesehatan", "slug": "alat-kesehatan", "icon": "stethoscope", "description": "Alat kesehatan untuk pemantauan di rumah" },
+  { "id": "CAT007", "name": "Herbal", "slug": "herbal", "icon": "leaf", "description": "Jamu dan herbal tradisional pilihan" },
+  { "id": "CAT008", "name": "Lainnya", "slug": "lainnya", "icon": "package", "description": "Kebutuhan kesehatan lainnya" }
+]

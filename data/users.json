@@ -1,0 +1,38 @@
+[
+  {
+    "id": "USR001",
+    "name": "Andini Prameswari, S.Farm., Apt.",
+    "email": "admin@sehatku.id",
+    "phone": "021-555-0123",
+    "role": "admin",
+    "passwordHash": "ZGVtbzphZG1pbjEyMw==",
+    "createdAt": "2025-01-10T08:00:00+07:00"
+  },
+  {
+    "id": "USR002",
+    "name": "Deni Kurniawan",
+    "email": "deni@sehatku.id",
+    "phone": "0812-3456-7890",
+    "role": "patient",
+    "passwordHash": "ZGVtbzpwYXNzd29yZDEyMw==",
+    "createdAt": "2026-02-14T10:30:00+07:00"
+  },
+  {
+    "id": "USR003",
+    "name": "Budi Santoso",
+    "email": "budi@sehatku.id",
+    "phone": "0813-9988-7766",
+    "role": "patient",
+    "passwordHash": "ZGVtbzpwYXNzd29yZDEyMw==",
+    "createdAt": "2026-03-02T14:15:00+07:00"
+  },
+  {
+    "id": "USR004",
+    "name": "Sari Wulandari",
+    "email": "sari@sehatku.id",
+    "phone": "0857-1122-3344",
+    "role": "patient",
+    "passwordHash": "ZGVtbzpwYXNzd29yZDEyMw==",
+    "createdAt": "2026-04-19T09:45:00+07:00"
+  }
+]

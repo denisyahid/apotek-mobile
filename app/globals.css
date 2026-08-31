@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Base mobile-first ---------- */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-surface font-sans text-slate-800 antialiased;
+    overscroll-behavior-y: none;
+  }
+
+  /* Hilangkan highlight biru saat tap di Android */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Angka lebih besar saat iPhone landscape — aksesibilitas tetap baik */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@layer utilities {
+  /* sembunyikan scrollbar (horizontal scroll kategori, chips) */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* safe area untuk perangkat berponi/notch */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  /* ruang untuk bottom navigation fixed (tinggi nav 64px + jarak) */
+  .pb-nav {
+    padding-bottom: calc(5.5rem + env(safe-area-inset-bottom));
+  }
+
+  /* scroll horizontal snap yang nyaman di HP */
+  .snap-x-mandatory {
+    scroll-snap-type: x mandatory;
+  }
+  .snap-start-always {
+    scroll-snap-align: start;
+  }
+}

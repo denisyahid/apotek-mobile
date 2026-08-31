@@ -1,0 +1,100 @@
+{
+  "payments": [
+    {
+      "id": "PAY0001",
+      "orderId": "ORD-20260828-0001",
+      "methodId": "PMT01",
+      "methodName": "Transfer Bank BCA",
+      "amount": 20000,
+      "status": "confirmed",
+      "proofId": "PRF0001",
+      "createdAt": "2026-08-28T10:12:00+07:00",
+      "updatedAt": "2026-08-28T11:02:00+07:00"
+    },
+    {
+      "id": "PAY0002",
+      "orderId": "ORD-20260829-0002",
+      "methodId": "PMT04",
+      "methodName": "QRIS",
+      "amount": 131500,
+      "status": "confirmed",
+      "proofId": "PRF0002",
+      "createdAt": "2026-08-29T09:05:00+07:00",
+      "updatedAt": "2026-08-29T10:00:00+07:00"
+    },
+    {
+      "id": "PAY0003",
+      "orderId": "ORD-20260830-0003",
+      "methodId": "PMT03",
+      "methodName": "Transfer Bank Mandiri",
+      "amount": 54000,
+      "status": "confirmed",
+      "proofId": "PRF0003",
+      "createdAt": "2026-08-30T15:48:00+07:00",
+      "updatedAt": "2026-08-30T16:35:00+07:00"
+    },
+    {
+      "id": "PAY0004",
+      "orderId": "ORD-20260830-0004",
+      "methodId": "PMT01",
+      "methodName": "Transfer Bank BCA",
+      "amount": 42500,
+      "status": "waiting_confirmation",
+      "proofId": "PRF0004",
+      "createdAt": "2026-08-30T19:20:00+07:00",
+      "updatedAt": "2026-08-30T19:36:00+07:00"
+    },
+    {
+      "id": "PAY0005",
+      "orderId": "ORD-20260831-0005",
+      "methodId": "PMT01",
+      "methodName": "Transfer Bank BCA",
+      "amount": 28000,
+      "status": "awaiting_proof",
+      "createdAt": "2026-08-31T07:58:00+07:00",
+      "updatedAt": "2026-08-31T07:58:00+07:00"
+    }
+  ],
+  "proofs": [
+    {
+      "id": "PRF0001",
+      "orderId": "ORD-20260828-0001",
+      "fileName": "bukti-transfer-bca.jpg",
+      "mimeType": "image/jpeg",
+      "size": 45210,
+      "url": "/images/demo-proof.svg",
+      "uploadedAt": "2026-08-28T10:31:00+07:00",
+      "uploadedBy": "USR002"
+    },
+    {
+      "id": "PRF0002",
+      "orderId": "ORD-20260829-0002",
+      "fileName": "bukti-qris.png",
+      "mimeType": "image/png",
+      "size": 51204,
+      "url": "/images/demo-proof.svg",
+      "uploadedAt": "2026-08-29T09:22:00+07:00",
+      "uploadedBy": "USR003"
+    },
+    {
+      "id": "PRF0003",
+      "orderId": "ORD-20260830-0003",
+      "fileName": "bukti-transfer-mandiri.jpg",
+      "mimeType": "image/jpeg",
+      "size": 47890,
+      "url": "/images/demo-proof.svg",
+      "uploadedAt": "2026-08-30T16:02:00+07:00",
+      "uploadedBy": "USR004"
+    },
+    {
+      "id": "PRF0004",
+      "orderId": "ORD-20260830-0004",
+      "fileName": "bukti-transfer-bca-2.jpg",
+      "mimeType": "image/jpeg",
+      "size": 46120,
+      "url": "/images/demo-proof.svg",
+      "uploadedAt": "2026-08-30T19:36:00+07:00",
+      "uploadedBy": "USR002"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "shippingCost": 15000,
+  "pickup": {
+    "name": "Apotek Sehatku Pusat",
+    "address": "Jl. Kesehatan Raya No. 12, Tebet",
+    "city": "Jakarta Selatan",
+    "phone": "021-555-0123",
+    "hours": "Setiap hari, 08.00–21.00 WIB"
+  },
+  "note": "Ongkos kirim tetap untuk seluruh area yang dilayani. Nantinya dapat dihitung otomatis via API ekspedisi."
+}
